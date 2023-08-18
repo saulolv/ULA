@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 7",
+		"os_version" : "6.1"
+	},
+	"error" : {
+		"executable" : "quartus",
+		"comment" : "not_applicable",
+		"error_message" : "is_selected()",
+		"source_file" : "/quartus/edt/gedq/gedq_symbol.cpp",
+		"line" : "2303",
+		"stack_trace" : "\t0x7f54a77ad175: edt_gedq + 0xad175\n\t0x7f54a779574b: edt_gedq + 0x9574b\n\t0x7f54a7795e0c: edt_gedq + 0x95e0c\n\t0x7f54a77c2eab: edt_gedq + 0xc2eab\n\t 0x65061b70: qtgui4 + 0x61b70\n\t 0x65022c55: qtgui4 + 0x22c55\n\t 0x6502184e: qtgui4 + 0x2184e\n\t 0x6710ec4b: qtcore4 + 0x10ec4b\n\t 0x65025a9e: qtgui4 + 0x25a9e\n\t 0x65086940: qtgui4 + 0x86940\n\t 0x6508a301: qtgui4 + 0x8a301\n\t0x216a29d20: user32 + 0x59d20 (call_window_proc + 0x40)\n\t0x216a2bd7e: user32 + 0x5bd7e (dispatch_win_proc_params + 0xfe)\n\t0x216a11ed7: user32 + 0x41ed7 (dispatch_message + 0x77)\n\t0x216a1426c: user32 + 0x4426c (DispatchMessageW + 0x34)\n\t 0x67133982: qtcore4 + 0x133982\n\t 0x65082004: qtgui4 + 0x82004\n\t 0x6710bb7b: qtcore4 + 0x10bb7b\n\t 0x6710e18f: qtcore4 + 0x10e18f\n\t0x14000198b: quartus + 0x198b\n\t  0x1e13258: ccl_msg + 0x13258\n\t  0x1e14a5e: ccl_msg + 0x14a5e\n\t  0x1cd6af0: ccl_mem + 0x16af0\n\t  0x1e12af1: ccl_msg + 0x12af1\n\t0x140002777: quartus + 0x2777\n\t0x140001f40: quartus + 0x1f40 (__tmainCRTStartup + 0x148)\n\t 0x7b629338: kernel32 + 0x29338 (BaseThreadInitThunk + 0x8)\n\t0x17005f572: ntdll + 0x5f572 (RtlUserThreadStart + 0x82)\n",
+		"subsystem" : "GEDQ"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "20.1.0",
+		"build" : "711",
+		"edition" : "Lite Edition"
+	}
+}
