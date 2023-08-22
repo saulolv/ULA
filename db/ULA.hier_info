@@ -675,58 +675,103 @@ soma[4] <= <GND>
 
 
 |ULA|Mod_A:inst7|Adder:inst4|Adder_1bit:inst4
-S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S <= inst8.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
-A => inst3.IN0
+A => inst7.IN0
+A => inst2.IN0
+A => inst10.IN0
+A => inst9.IN0
 B => inst.IN1
 B => inst3.IN1
-Cin => inst1.IN1
-Cin => inst2.IN0
-Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst5.IN0
+B => inst12.IN0
+B => inst9.IN1
+Cin => inst.IN2
+Cin => inst6.IN0
+Cin => inst4.IN2
+Cin => inst10.IN1
+Cin => inst12.IN1
+Cout <= inst11.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ULA|Mod_A:inst7|Adder:inst4|Adder_1bit:inst3
-S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S <= inst8.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
-A => inst3.IN0
+A => inst7.IN0
+A => inst2.IN0
+A => inst10.IN0
+A => inst9.IN0
 B => inst.IN1
 B => inst3.IN1
-Cin => inst1.IN1
-Cin => inst2.IN0
-Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst5.IN0
+B => inst12.IN0
+B => inst9.IN1
+Cin => inst.IN2
+Cin => inst6.IN0
+Cin => inst4.IN2
+Cin => inst10.IN1
+Cin => inst12.IN1
+Cout <= inst11.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ULA|Mod_A:inst7|Adder:inst4|Adder_1bit:inst2
-S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S <= inst8.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
-A => inst3.IN0
+A => inst7.IN0
+A => inst2.IN0
+A => inst10.IN0
+A => inst9.IN0
 B => inst.IN1
 B => inst3.IN1
-Cin => inst1.IN1
-Cin => inst2.IN0
-Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst5.IN0
+B => inst12.IN0
+B => inst9.IN1
+Cin => inst.IN2
+Cin => inst6.IN0
+Cin => inst4.IN2
+Cin => inst10.IN1
+Cin => inst12.IN1
+Cout <= inst11.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ULA|Mod_A:inst7|Adder:inst4|Adder_1bit:inst1
-S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S <= inst8.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
-A => inst3.IN0
+A => inst7.IN0
+A => inst2.IN0
+A => inst10.IN0
+A => inst9.IN0
 B => inst.IN1
 B => inst3.IN1
-Cin => inst1.IN1
-Cin => inst2.IN0
-Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst5.IN0
+B => inst12.IN0
+B => inst9.IN1
+Cin => inst.IN2
+Cin => inst6.IN0
+Cin => inst4.IN2
+Cin => inst10.IN1
+Cin => inst12.IN1
+Cout <= inst11.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ULA|Mod_A:inst7|Adder:inst4|Adder_1bit:inst
-S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S <= inst8.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
-A => inst3.IN0
+A => inst7.IN0
+A => inst2.IN0
+A => inst10.IN0
+A => inst9.IN0
 B => inst.IN1
 B => inst3.IN1
-Cin => inst1.IN1
-Cin => inst2.IN0
-Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst5.IN0
+B => inst12.IN0
+B => inst9.IN1
+Cin => inst.IN2
+Cin => inst6.IN0
+Cin => inst4.IN2
+Cin => inst10.IN1
+Cin => inst12.IN1
+Cout <= inst11.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ULA|Mod_A:inst7|Adder:inst4|Overflow:inst5
@@ -758,8 +803,8 @@ shl[1] <= <GND>
 shl[2] <= <GND>
 shl[3] <= <GND>
 shl[4] <= <GND>
-X => ~NO_FANOUT~
 Y => ~NO_FANOUT~
+X => ~NO_FANOUT~
 A[0] => ~NO_FANOUT~
 A[1] => ~NO_FANOUT~
 A[2] => ~NO_FANOUT~
@@ -791,58 +836,103 @@ soma[4] <= <GND>
 
 
 |ULA|Adder:inst|Adder_1bit:inst4
-S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S <= inst8.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
-A => inst3.IN0
+A => inst7.IN0
+A => inst2.IN0
+A => inst10.IN0
+A => inst9.IN0
 B => inst.IN1
 B => inst3.IN1
-Cin => inst1.IN1
-Cin => inst2.IN0
-Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst5.IN0
+B => inst12.IN0
+B => inst9.IN1
+Cin => inst.IN2
+Cin => inst6.IN0
+Cin => inst4.IN2
+Cin => inst10.IN1
+Cin => inst12.IN1
+Cout <= inst11.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ULA|Adder:inst|Adder_1bit:inst3
-S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S <= inst8.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
-A => inst3.IN0
+A => inst7.IN0
+A => inst2.IN0
+A => inst10.IN0
+A => inst9.IN0
 B => inst.IN1
 B => inst3.IN1
-Cin => inst1.IN1
-Cin => inst2.IN0
-Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst5.IN0
+B => inst12.IN0
+B => inst9.IN1
+Cin => inst.IN2
+Cin => inst6.IN0
+Cin => inst4.IN2
+Cin => inst10.IN1
+Cin => inst12.IN1
+Cout <= inst11.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ULA|Adder:inst|Adder_1bit:inst2
-S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S <= inst8.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
-A => inst3.IN0
+A => inst7.IN0
+A => inst2.IN0
+A => inst10.IN0
+A => inst9.IN0
 B => inst.IN1
 B => inst3.IN1
-Cin => inst1.IN1
-Cin => inst2.IN0
-Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst5.IN0
+B => inst12.IN0
+B => inst9.IN1
+Cin => inst.IN2
+Cin => inst6.IN0
+Cin => inst4.IN2
+Cin => inst10.IN1
+Cin => inst12.IN1
+Cout <= inst11.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ULA|Adder:inst|Adder_1bit:inst1
-S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S <= inst8.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
-A => inst3.IN0
+A => inst7.IN0
+A => inst2.IN0
+A => inst10.IN0
+A => inst9.IN0
 B => inst.IN1
 B => inst3.IN1
-Cin => inst1.IN1
-Cin => inst2.IN0
-Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst5.IN0
+B => inst12.IN0
+B => inst9.IN1
+Cin => inst.IN2
+Cin => inst6.IN0
+Cin => inst4.IN2
+Cin => inst10.IN1
+Cin => inst12.IN1
+Cout <= inst11.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ULA|Adder:inst|Adder_1bit:inst
-S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S <= inst8.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
-A => inst3.IN0
+A => inst7.IN0
+A => inst2.IN0
+A => inst10.IN0
+A => inst9.IN0
 B => inst.IN1
 B => inst3.IN1
-Cin => inst1.IN1
-Cin => inst2.IN0
-Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst5.IN0
+B => inst12.IN0
+B => inst9.IN1
+Cin => inst.IN2
+Cin => inst6.IN0
+Cin => inst4.IN2
+Cin => inst10.IN1
+Cin => inst12.IN1
+Cout <= inst11.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ULA|Adder:inst|Overflow:inst5
@@ -899,58 +989,103 @@ soma[4] <= <GND>
 
 
 |ULA|Subtrator:inst2|Adder:inst|Adder_1bit:inst4
-S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S <= inst8.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
-A => inst3.IN0
+A => inst7.IN0
+A => inst2.IN0
+A => inst10.IN0
+A => inst9.IN0
 B => inst.IN1
 B => inst3.IN1
-Cin => inst1.IN1
-Cin => inst2.IN0
-Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst5.IN0
+B => inst12.IN0
+B => inst9.IN1
+Cin => inst.IN2
+Cin => inst6.IN0
+Cin => inst4.IN2
+Cin => inst10.IN1
+Cin => inst12.IN1
+Cout <= inst11.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ULA|Subtrator:inst2|Adder:inst|Adder_1bit:inst3
-S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S <= inst8.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
-A => inst3.IN0
+A => inst7.IN0
+A => inst2.IN0
+A => inst10.IN0
+A => inst9.IN0
 B => inst.IN1
 B => inst3.IN1
-Cin => inst1.IN1
-Cin => inst2.IN0
-Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst5.IN0
+B => inst12.IN0
+B => inst9.IN1
+Cin => inst.IN2
+Cin => inst6.IN0
+Cin => inst4.IN2
+Cin => inst10.IN1
+Cin => inst12.IN1
+Cout <= inst11.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ULA|Subtrator:inst2|Adder:inst|Adder_1bit:inst2
-S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S <= inst8.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
-A => inst3.IN0
+A => inst7.IN0
+A => inst2.IN0
+A => inst10.IN0
+A => inst9.IN0
 B => inst.IN1
 B => inst3.IN1
-Cin => inst1.IN1
-Cin => inst2.IN0
-Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst5.IN0
+B => inst12.IN0
+B => inst9.IN1
+Cin => inst.IN2
+Cin => inst6.IN0
+Cin => inst4.IN2
+Cin => inst10.IN1
+Cin => inst12.IN1
+Cout <= inst11.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ULA|Subtrator:inst2|Adder:inst|Adder_1bit:inst1
-S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S <= inst8.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
-A => inst3.IN0
+A => inst7.IN0
+A => inst2.IN0
+A => inst10.IN0
+A => inst9.IN0
 B => inst.IN1
 B => inst3.IN1
-Cin => inst1.IN1
-Cin => inst2.IN0
-Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst5.IN0
+B => inst12.IN0
+B => inst9.IN1
+Cin => inst.IN2
+Cin => inst6.IN0
+Cin => inst4.IN2
+Cin => inst10.IN1
+Cin => inst12.IN1
+Cout <= inst11.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ULA|Subtrator:inst2|Adder:inst|Adder_1bit:inst
-S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S <= inst8.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
-A => inst3.IN0
+A => inst7.IN0
+A => inst2.IN0
+A => inst10.IN0
+A => inst9.IN0
 B => inst.IN1
 B => inst3.IN1
-Cin => inst1.IN1
-Cin => inst2.IN0
-Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst5.IN0
+B => inst12.IN0
+B => inst9.IN1
+Cin => inst.IN2
+Cin => inst6.IN0
+Cin => inst4.IN2
+Cin => inst10.IN1
+Cin => inst12.IN1
+Cout <= inst11.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ULA|Subtrator:inst2|Adder:inst|Overflow:inst5
