@@ -24,7 +24,7 @@ https://fpgasoftware.intel.com/eula.
 	(input)
 	(rect -56 128 112 144)
 	(text "INPUT" (rect 125 0 153 17)(font "Arial" (font_size 6)))
-	(text "P[3..0]" (rect 5 0 36 17)(font "Arial" ))
+	(text "P[4..0]" (rect 5 0 36 17)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
