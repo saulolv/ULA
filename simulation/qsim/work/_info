@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/guilh/EC/Sistemas Digitais/Comp5/ULA/ULA/simulation/qsim
+vULA
+Z1 !s110 1693026368
+!i10b 1
+!s100 4bVh0^ZkGg8dHZ<Xl7`D<1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I2didXQ[GPFPYJPUgAP]9@0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1693026367
+8ULA.vo
+FULA.vo
+!i122 32
+L0 32 1043
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1693026368.000000
+!s107 ULA.vo|
+!s90 -work|work|ULA.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@u@l@a
+vULA_vlg_vec_tst
+R1
+!i10b 1
+!s100 Eee@OKbAj1Al_JA>Q:=7W2
+R2
+I9g9YPON8D<X4DF>WFimGK1
+R3
+R0
+w1693026366
+8Waveform5.vwf.vt
+FWaveform5.vwf.vt
+!i122 33
+L0 30 93
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform5.vwf.vt|
+!s90 -work|work|Waveform5.vwf.vt|
+!i113 1
+R6
+R7
+n@u@l@a_vlg_vec_tst
