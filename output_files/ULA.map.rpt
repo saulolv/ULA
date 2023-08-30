@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ULA
-Tue Aug 29 20:52:16 2023
+Wed Aug 30 02:31:54 2023
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -51,7 +51,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Aug 29 20:52:16 2023       ;
+; Analysis & Synthesis Status     ; Successful - Wed Aug 30 02:31:54 2023       ;
 ; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                   ; ULA                                         ;
 ; Top-level Entity Name           ; ULA                                         ;
@@ -208,11 +208,11 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+------------+
 ; Estimate of Logic utilization (ALMs needed) ; 24         ;
 ;                                             ;            ;
-; Combinational ALUT usage for logic          ; 37         ;
+; Combinational ALUT usage for logic          ; 36         ;
 ;     -- 7 input functions                    ; 2          ;
 ;     -- 6 input functions                    ; 9          ;
-;     -- 5 input functions                    ; 18         ;
-;     -- 4 input functions                    ; 3          ;
+;     -- 5 input functions                    ; 16         ;
+;     -- 4 input functions                    ; 4          ;
 ;     -- <=3 input functions                  ; 5          ;
 ;                                             ;            ;
 ; Dedicated logic registers                   ; 0          ;
@@ -223,8 +223,8 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;            ;
 ; Maximum fan-out node                        ; S[0]~input ;
 ; Maximum fan-out                             ; 12         ;
-; Total fan-out                               ; 226        ;
-; Average fan-out                             ; 2.33       ;
+; Total fan-out                               ; 216        ;
+; Average fan-out                             ; 2.25       ;
 +---------------------------------------------+------------+
 
 
@@ -233,7 +233,7 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------+-------------------+--------------+
 ; Compilation Hierarchy Node         ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                          ; Entity Name       ; Library Name ;
 +------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------+-------------------+--------------+
-; |ULA                               ; 37 (0)              ; 0 (0)                     ; 0                 ; 0          ; 30   ; 0            ; |ULA                                                         ; ULA               ; work         ;
+; |ULA                               ; 36 (0)              ; 0 (0)                     ; 0                 ; 0          ; 30   ; 0            ; |ULA                                                         ; ULA               ; work         ;
 ;    |74151:inst10|                  ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ULA|74151:inst10                                            ; 74151             ; work         ;
 ;       |f74151:sub|                 ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ULA|74151:inst10|f74151:sub                                 ; f74151            ; work         ;
 ;    |74151:inst11|                  ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ULA|74151:inst11                                            ; 74151             ; work         ;
@@ -262,8 +262,7 @@ https://fpgasoftware.intel.com/eula.
 ;          |Multiplexador_2x1:inst1| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ULA|SubAdder:inst1|BusMux_2x1:inst3|Multiplexador_2x1:inst1 ; Multiplexador_2x1 ; work         ;
 ;          |Multiplexador_2x1:inst2| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ULA|SubAdder:inst1|BusMux_2x1:inst3|Multiplexador_2x1:inst2 ; Multiplexador_2x1 ; work         ;
 ;          |Multiplexador_2x1:inst|  ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ULA|SubAdder:inst1|BusMux_2x1:inst3|Multiplexador_2x1:inst  ; Multiplexador_2x1 ; work         ;
-;    |binary2BDC:inst25|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ULA|binary2BDC:inst25                                       ; binary2BDC        ; work         ;
-;    |display:inst26|                ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ULA|display:inst26                                          ; display           ; work         ;
+;    |display:inst15|                ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ULA|display:inst15                                          ; display           ; work         ;
 +------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------+-------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -395,21 +394,21 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 41                          ;
+; arriav_lcell_comb     ; 38                          ;
 ;     extend            ; 2                           ;
 ;         7 data inputs ; 2                           ;
-;     normal            ; 39                          ;
-;         0 data inputs ; 2                           ;
-;         1 data inputs ; 2                           ;
+;     normal            ; 36                          ;
+;         0 data inputs ; 1                           ;
+;         1 data inputs ; 1                           ;
 ;         2 data inputs ; 3                           ;
 ;         3 data inputs ; 2                           ;
-;         4 data inputs ; 3                           ;
-;         5 data inputs ; 18                          ;
+;         4 data inputs ; 4                           ;
+;         5 data inputs ; 16                          ;
 ;         6 data inputs ; 9                           ;
 ; boundary_port         ; 30                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 5.00                        ;
-; Average LUT depth     ; 4.31                        ;
+; Average LUT depth     ; 4.37                        ;
 +-----------------------+-----------------------------+
 
 
@@ -418,7 +417,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:05     ;
+; Top            ; 00:00:11     ;
 +----------------+--------------+
 
 
@@ -428,7 +427,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Tue Aug 29 20:50:54 2023
+    Info: Processing started: Wed Aug 30 02:29:56 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ULA -c ULA
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -492,27 +491,31 @@ Info (12128): Elaborating entity "Mod_A" for hierarchy "Mod_A:inst7"
 Info (12128): Elaborating entity "ShL2" for hierarchy "ShL2:inst8"
 Warning (12125): Using design file display.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: display
-Info (12128): Elaborating entity "display" for hierarchy "display:inst28"
+Info (12128): Elaborating entity "display" for hierarchy "display:inst14"
 Warning (12125): Using design file binary2bdc.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: binary2BDC
 Info (12128): Elaborating entity "binary2BDC" for hierarchy "binary2BDC:inst25"
 Info (13014): Ignored 11 buffer(s)
     Info (13017): Ignored 11 CASCADE buffer(s)
 Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "aa0" is stuck at VCC
+    Warning (13410): Pin "bb0" is stuck at VCC
+    Warning (13410): Pin "cc0" is stuck at VCC
+    Warning (13410): Pin "dd0" is stuck at VCC
     Warning (13410): Pin "ee0" is stuck at VCC
-    Warning (13410): Pin "ff0" is stuck at GND
-    Warning (13410): Pin "cc0" is stuck at GND
+    Warning (13410): Pin "ff0" is stuck at VCC
+    Warning (13410): Pin "gg0" is stuck at VCC
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 67 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 66 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 13 input pins
     Info (21059): Implemented 17 output pins
-    Info (21061): Implemented 37 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 9 warnings
+    Info (21061): Implemented 36 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 13 warnings
     Info: Peak virtual memory: 565 megabytes
-    Info: Processing ended: Tue Aug 29 20:52:16 2023
-    Info: Elapsed time: 00:01:22
-    Info: Total CPU time (on all processors): 00:00:14
+    Info: Processing ended: Wed Aug 30 02:31:54 2023
+    Info: Elapsed time: 00:01:58
+    Info: Total CPU time (on all processors): 00:00:17
 
 

@@ -16,27 +16,19 @@
 					"strict" : false
 				},
 				{
-					"name" : "aa0",
-					"strict" : false
-				},
-				{
-					"name" : "bb0",
-					"strict" : false
-				},
-				{
-					"name" : "gg0",
-					"strict" : false
-				},
-				{
-					"name" : "dd0",
-					"strict" : false
-				},
-				{
 					"name" : "aa1",
 					"strict" : false
 				},
 				{
 					"name" : "bb1",
+					"strict" : false
+				},
+				{
+					"name" : "cc1",
+					"strict" : false
+				},
+				{
+					"name" : "dd1",
 					"strict" : false
 				},
 				{
@@ -48,15 +40,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "cc1",
-					"strict" : false
-				},
-				{
 					"name" : "gg1",
-					"strict" : false
-				},
-				{
-					"name" : "dd1",
 					"strict" : false
 				},
 				{
