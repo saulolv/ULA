@@ -16,11 +16,27 @@
 					"strict" : false
 				},
 				{
+					"name" : "aa0",
+					"strict" : false
+				},
+				{
 					"name" : "aa1",
 					"strict" : false
 				},
 				{
 					"name" : "bb1",
+					"strict" : false
+				},
+				{
+					"name" : "dd0",
+					"strict" : false
+				},
+				{
+					"name" : "ee0",
+					"strict" : false
+				},
+				{
+					"name" : "ff0",
 					"strict" : false
 				},
 				{
