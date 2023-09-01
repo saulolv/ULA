@@ -41,7 +41,8 @@ The project is further enhanced if successfully implemented on an FPGA. ALU inpu
 
 - Input A and B: Mapped to the FPGA's 10 DIP switches.
 - Input S: Mapped to FPGA buttons.
-- Outputs F, overflow, status, and negative result: Mapped to the FPGA's seven-segment displays and LEDs.
+- Outputs F result: Mapped to the FPGA's seven-segment displays.
+- overflow, status, and negative result: Mapped to the FPGA's  LEDs
 
 ## Contributors
 This project was developed by **Saulo Roberto dos Santos** and **Guilherme** as part of the coursework for Sistemas Digitais.
