@@ -38,7 +38,7 @@
 
 
 set_global_assignment -name FAMILY "Cyclone V"
-set_global_assignment -name DEVICE 5CGXFC7C7F23C8
+set_global_assignment -name DEVICE 5CSEMA5F31C6
 set_global_assignment -name TOP_LEVEL_ENTITY ULA
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:28:39  AUGUST 05, 2023"
@@ -70,4 +70,39 @@ set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform2.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform3.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform4.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform5.vwf
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_location_assignment PIN_AA14 -to S[0]
+set_location_assignment PIN_AA15 -to S[1]
+set_location_assignment PIN_W15 -to S[2]
+set_location_assignment PIN_AD12 -to A[0]
+set_location_assignment PIN_AE11 -to A[1]
+set_location_assignment PIN_AC9 -to A[2]
+set_location_assignment PIN_AD10 -to A[3]
+set_location_assignment PIN_AE12 -to A[4]
+set_location_assignment PIN_AB12 -to B[0]
+set_location_assignment PIN_AC12 -to B[1]
+set_location_assignment PIN_AF9 -to B[2]
+set_location_assignment PIN_AF10 -to B[3]
+set_location_assignment PIN_AD11 -to B[4]
+set_location_assignment PIN_V16 -to NEGATIVO
+set_location_assignment PIN_W16 -to OVERFLOW
+set_location_assignment PIN_V17 -to SINAL
+set_location_assignment PIN_AE26 -to aa1
+set_location_assignment PIN_AE27 -to bb1
+set_location_assignment PIN_AE28 -to cc1
+set_location_assignment PIN_AG27 -to dd1
+set_location_assignment PIN_AF28 -to ee1
+set_location_assignment PIN_AG28 -to ff1
+set_location_assignment PIN_AH28 -to gg1
+set_location_assignment PIN_AJ29 -to aa0
+set_location_assignment PIN_AH29 -to bb0
+set_location_assignment PIN_AH30 -to cc0
+set_location_assignment PIN_AG30 -to dd0
+set_location_assignment PIN_AF29 -to ee0
+set_location_assignment PIN_AF30 -to ff0
+set_location_assignment PIN_AD27 -to gg0
+set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/Waveform.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/Waveform1.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/Waveform2.vwf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

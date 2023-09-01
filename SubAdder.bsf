@@ -62,8 +62,8 @@ https://fpgasoftware.intel.com/eula.
 	(port
 		(pt 144 64)
 		(output)
-		(text "overflow" (rect 0 0 51 19)(font "Intel Clear" (font_size 8)))
-		(text "overflow" (rect 72 59 123 78)(font "Intel Clear" (font_size 8)))
+		(text "overflow" (rect 0 0 50 19)(font "Intel Clear" (font_size 8)))
+		(text "overflow" (rect 73 59 123 78)(font "Intel Clear" (font_size 8)))
 		(line (pt 144 64)(pt 128 64))
 	)
 	(drawing

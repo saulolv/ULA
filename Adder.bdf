@@ -495,39 +495,6 @@ https://fpgasoftware.intel.com/eula.
 		(rectangle (rect 16 16 80 80))
 	)
 )
-(symbol
-	(rect 976 872 1040 920)
-	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
-	(text "inst6" (rect 3 37 25 54)(font "Intel Clear" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(line (pt 0 32)(pt 15 32))
-	)
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 15 16))
-	)
-	(port
-		(pt 64 24)
-		(output)
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(line (pt 48 24)(pt 64 24))
-	)
-	(drawing
-		(line (pt 14 36)(pt 25 36))
-		(line (pt 14 13)(pt 25 13))
-		(arc (pt 7 29)(pt 7 19)(rect -14 8 19 41))
-		(arc (pt 49 24)(pt 25 13)(rect -6 13 57 76))
-		(arc (pt 25 35)(pt 49 24)(rect -6 -27 57 36))
-	)
-)
 (connector
 	(pt 728 232)
 	(pt 784 232)
@@ -757,30 +724,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 1088 912)
 )
 (connector
-	(pt 840 864)
-	(pt 840 824)
-)
-(connector
-	(pt 840 864)
-	(pt 944 864)
-)
-(connector
-	(pt 728 824)
-	(pt 840 824)
-)
-(connector
-	(pt 840 824)
-	(pt 872 824)
-)
-(connector
-	(pt 944 864)
-	(pt 944 888)
-)
-(connector
-	(pt 944 888)
-	(pt 976 888)
-)
-(connector
 	(pt 920 912)
 	(pt 944 912)
 )
@@ -789,8 +732,16 @@ https://fpgasoftware.intel.com/eula.
 	(pt 944 904)
 )
 (connector
+	(pt 728 824)
+	(pt 872 824)
+)
+(connector
+	(pt 1040 904)
 	(pt 944 904)
-	(pt 976 904)
+)
+(connector
+	(pt 1040 904)
+	(pt 1040 896)
 )
 (junction (pt 776 808))
 (junction (pt 576 808))
@@ -799,4 +750,3 @@ https://fpgasoftware.intel.com/eula.
 (junction (pt 968 504))
 (junction (pt 968 360))
 (junction (pt 968 216))
-(junction (pt 840 824))
